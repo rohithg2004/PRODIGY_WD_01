@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Landing.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Landing Page</div>
+        <span class="sideMenuButton" onclick="openNavbar()">&#9776;</span>
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#sign-up">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="sideNavigationBar" id="sideNavigationBar">
+        <a href="#" class="closeButton" onclick="closeNavbar()">&#x274C;</a>
+        <a href="#Home">Home</a>
+        <a href="#about">About</a>
+        <a href="#sign-up">Sign Up</a>
+    </div>
+
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>GeeksforGeeks</h1>
+            <button><a href="https://www.geeksforgeeks.org/">Explore More</a></button>
+        </div>
+        <div class="side2">
+            <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220401124017/HTML-Tutorial.png" width="500">
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="content-box">
+            <div class="title">
+                <span>About Us</span>
+            </div>
+            <p>Welcome to GeeksforGeeks, your ultimate destination for learning and mastering technical skills. We are dedicated to providing high-quality educational content curated by industry experts. Whether you're a beginner looking to start your coding journey or an experienced developer seeking advanced techniques, we have something for everyone.</p>
+            <p>At GeeksforGeeks, our mission is to empower individuals around the world through accessible and comprehensive learning resources. With thousands of articles, tutorials, and interactive courses, we strive to foster a community of lifelong learners who are passionate about technology.</p>
+            <p>Join us in exploring the latest trends in programming, web development, data science, and more. Enhance your skills, share your knowledge, and connect with a global network of like-minded geeks.</p>
+        </div>
+    </section>
+
+    <section class="services" id="Services">
+        <div class="content">
+            <div class="title"><span>Our Services</span></div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic"><a href="#">Web Development</a></div>
+                    <p>We build modern and responsive websites.</p>
+                </div>
+                <div class="box">
+                    <div class="topic"><a href="#">Mobile Development</a></div>
+                    <p>We create mobile applications for Android and iOS.</p>
+                </div>
+                <div class="box">
+                    <div class="topic"><a href="#">SEO Optimization</a></div>
+                    <p>We help improve your website's search engine ranking.</p>
+                </div>
+                <div class="box">
+                    <div class="topic"><a href="#">Content Creation</a></div>
+                    <p>We produce high-quality content tailored to your needs.</p>
+                </div>
+                <div class="box">
+                    <div class="topic"><a href="#">Data Analysis</a></div>
+                    <p>We provide insights and analysis to help you make informed decisions.</p>
+                </div>
+                <div class="box">
+                    <div class="topic"><a href="#">Cloud Services</a></div>
+                    <p>We offer cloud solutions to enhance your business operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog" id="Blog">
+        <div class="content">
+            <div class="title"><span>Latest Blog Posts</span></div>
+            <div class="blog-posts">
+                <div class="post">
+                    <h3><a href="#">How to Learn Web Development</a></h3>
+                    <p>Web development is a vast field, but with the right resources and dedication, you can master it.</p>
+                </div>
+                <div class="post">
+                    <h3><a href="#">Top 10 JavaScript Frameworks</a></h3>
+                    <p>Explore the most popular JavaScript frameworks that developers love to use.</p>
+                </div>
+                <div class="post">
+                    <h3><a href="#">SEO Tips for Beginners</a></h3>
+                    <p>Learn the basics of SEO and how to improve your website's visibility in search engines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="content">
+            <div class="title"><span>Testimonials</span></div>
+            <div class="testimonial-cards">
+                <div class="card">
+                    <p>"Great platform with excellent courses!"</p>
+                    <span>- User A</span>
+                </div>
+                <div class="card">
+                    <p>"Helped me land my dream job."</p>
+                    <span>- User B</span>
+                </div>
+                <div class="card">
+                    <p>"Highly recommend for all geeks."</p>
+                    <span>- User C</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter" id="newsletter">
+        <div class="content">
+            <div class="title"><span>Subscribe to our Newsletter</span></div>
+            <div class="subscription-form">
+                <input class="newsletteremail" type="email" placeholder="Enter your email">
+                <button class="newsletterbutton">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="sign-up">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2"><input type="text" placeholder="Enter your Name here"></div>
+                    <div class="label1"><label>Your Email</label></div>
+                    <div class="input2"><input type="text" placeholder="Enter your Email here"></div>
+                    <div class="label1"><label>Your Password</label></div>
+                    <div class="input2"><input type="text" placeholder="Enter your Password here"></div>
+                    <div class="button"><button>Sign Up</button></div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1"><span>Contact Us</span></div>
+                        <div class="content1">A-143, 9th Floor, Sovereign Corporate Tower, Sector-136, Noida, Uttar Pradesh - 201305</div>
+                        <div class="title1"><span>More Information</span></div>
+                        <div class="content1">Greetings to all the Geeks out there! We welcome you to the platform where we consistently strive to offer the best of education. This platform has been designed for every geek wishing to expand their knowledge, share their knowledge and is ready to grab their dream job. We have millions of articles, live as well as online courses, thousands of tutorials and much more just for the geek inside you. Thank you for choosing and supporting us!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer"><span>Created By <a href="https://www.geeksforgeeks.org/" target="_blank">GeeksforGeeks</a></span></div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
